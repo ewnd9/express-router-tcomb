@@ -1,0 +1,43 @@
+{
+  "name": "express-router-tcomb",
+  "description": "Router with a query / body / response (for tests) validation via tcomb",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '*.js'",
+    "precommit": "npm run lint && npm test",
+    "test": "ava",
+    "test:watch": "npm run test -- --watch"
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "keywords": [
+    "express",
+    "validation",
+    "tcomb"
+  ],
+  "dependencies": {
+    "methods": "^1.1.2"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-eslint": "^6.0.0",
+    "body-parser": "^1.15.2",
+    "eslint": "^3.0.0",
+    "express": "^4.14.0",
+    "husky": "^0.11.6",
+    "supertest": "^2.0.1",
+    "tcomb-validation": "^3.3.0"
+  },
+  "author": "ewnd9 <ewndnine@gmail.com>",
+  "files": [
+    "index.js",
+    "middleware.js"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewnd9/express-router-tcomb.git"
+  }
+}
