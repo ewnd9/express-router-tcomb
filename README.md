@@ -77,6 +77,11 @@ app.use((err, req, res, next) => {
 app.listen(3000);
 ```
 
+## Related
+
+- [`express-router-tcomb-test`](https://github.com/ewnd9/express-router-tcomb-test) - A test agent for this module
+- [JSON API Validation In Node.js](https://gcanti.github.io/2014/09/15/json-api-validation-in-node.html) - An article from the creator of tcomb
+
 ## License
 
 MIT © [ewnd9](http://ewnd9.com)
